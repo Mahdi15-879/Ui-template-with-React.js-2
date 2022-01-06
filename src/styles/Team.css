@@ -1,0 +1,45 @@
+.Team {
+  margin: 5rem 0;
+}
+
+.Team__members {
+  width: 80%;
+  margin: 5rem auto 0 auto;
+}
+
+.Team__head {
+  margin-bottom: 3rem;
+}
+
+.Team__head,
+.Team__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Team__head span {
+  width: 48%;
+}
+
+.Team__head span div img,
+.Team__body span div img {
+  border-radius: 5px;
+}
+
+.Team__head span h3,
+.Team__body span h3 {
+  color: #4a4a4a;
+  line-height: 0;
+}
+
+.Team__head span h4,
+.Team__body span h4 {
+  color: #a7a6a8;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.Team__body span {
+  width: 23%;
+}
