@@ -1,0 +1,55 @@
+.Services {
+  background-color: #0b0833;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%232E64FF'/%3E%3Cstop offset='1' stop-color='%230B0833'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%2326E8FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%2326E8FF' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding: 10rem 0;
+  margin-top: -3rem;
+}
+
+.Services-items {
+  width: 80%;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(15rem, 1fr));
+  grid-template-rows: repeat(2, 10rem);
+  grid-gap: 5rem;
+}
+
+.card {
+  color: #fff;
+  text-align: center;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+}
+
+.card__side {
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card__side h4,
+.card__side p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.card__side--back {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+
+.card:hover .card__side--back {
+  transform: rotateY(0);
+}

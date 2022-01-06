@@ -16,6 +16,7 @@
   padding: 3rem;
   background-color: #ffffff;
   border-radius: 0px;
+  z-index: 3;
 }
 
 .Card-item h3 {
@@ -64,4 +65,9 @@
   color: #fff;
   border: 2px solid #fff;
   border-radius: 5px;
+}
+
+.Card-item a:hover,
+.Card-item-2 a:hover {
+  opacity: 0.8;
 }
