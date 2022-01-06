@@ -1,0 +1,32 @@
+.Navbar {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar-img {
+  width: 20%;
+}
+
+.Navbar-list ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar-list ul > *:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.Navbar-list ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.Navbar-list ul li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
