@@ -6,6 +6,7 @@ import Services from "./Services";
 import Team from "./Team";
 import Philosophy from "./Philosophy";
 import Testimonials from "./Testimonials";
+import Action from "./Action";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Team />
       <Philosophy />
       <Testimonials />
+      <Action />
     </div>
   );
 }
