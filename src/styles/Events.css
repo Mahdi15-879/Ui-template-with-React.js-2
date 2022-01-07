@@ -1,0 +1,57 @@
+.Events {
+  background-color: #f7f7f7;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  padding-top: 15rem;
+}
+
+.Events-body {
+  margin-top: 3rem;
+}
+
+.row {
+  display: flex;
+  width: 100% !important;
+}
+
+.Events-body div {
+  width: 380px;
+  height: 350px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.Events-body div img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  transition: all 0.3s linear;
+  object-fit: cover;
+}
+
+.Events-body div img:hover {
+  filter: grayscale(0) brightness(70%);
+  transform: scale(1.1);
+}
+
+.Events-des {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s linear;
+}
+
+.Events-body div img:hover ~ .Events-des {
+  opacity: 1;
+}
+
+.Events-des h3 {
+  line-height: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}

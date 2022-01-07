@@ -8,6 +8,7 @@ import Philosophy from "./Philosophy";
 import Testimonials from "./Testimonials";
 import Action from "./Action";
 import Partners from "./Partners";
+import Events from "./Events";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Testimonials />
       <Action />
       <Partners />
+      <Events />
     </div>
   );
 }
