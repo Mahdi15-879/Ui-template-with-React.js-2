@@ -6,7 +6,7 @@ import "./styles/About.css";
 
 const About = () => {
   return (
-    <div className="About">
+    <div className="About" id="about">
       <Heading
         headingClass="Heading-primary"
         title="What we are passionate about"

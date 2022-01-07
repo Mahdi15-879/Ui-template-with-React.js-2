@@ -6,7 +6,7 @@ import "./styles/Services.css";
 
 const Services = () => {
   return (
-    <div className="Services">
+    <div className="Services" id="services">
       <Heading
         headingClass="Heading-secondary"
         title="Services"

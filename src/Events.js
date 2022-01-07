@@ -6,7 +6,7 @@ import "./styles/Events.css";
 
 const Events = () => {
   return (
-    <div className="Events">
+    <div className="Events" id="events">
       <Heading
         headingClass="Heading-primary"
         title="Latest Events"

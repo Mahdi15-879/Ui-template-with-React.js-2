@@ -6,7 +6,7 @@ import "./styles/Touch.css";
 
 const Touch = () => {
   return (
-    <div className="Touch">
+    <div className="Touch" id="touch">
       <Heading
         headingClass="Heading-primary"
         title="Get in touch"

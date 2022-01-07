@@ -6,7 +6,7 @@ import "./styles/Team.css";
 
 const Team = () => {
   return (
-    <div className="Team">
+    <div className="Team" id="team">
       <Heading
         headingClass="Heading-primary"
         title="Meet the team"

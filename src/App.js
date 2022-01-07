@@ -11,6 +11,7 @@ import Partners from "./Partners";
 import Events from "./Events";
 import Tale from "./Tale";
 import Touch from "./Touch";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Events />
       <Tale />
       <Touch />
+      <Footer />
     </div>
   );
 }

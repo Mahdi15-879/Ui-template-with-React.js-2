@@ -17,22 +17,22 @@ const Navbar = () => {
       <div className="Navbar-list">
         <ul>
           <li>
-            <a href="#">work</a>
+            <a href="#about">work</a>
           </li>
           <li>
-            <a href="#">services</a>
+            <a href="#services">services</a>
           </li>
           <li>
-            <a href="#">team</a>
+            <a href="#team">team</a>
           </li>
           <li>
-            <a href="#">philosophy</a>
+            <a href="#philosophy">philosophy</a>
           </li>
           <li>
-            <a href="#">portfolio</a>
+            <a href="#events">portfolio</a>
           </li>
           <li>
-            <a href="#">contact</a>
+            <a href="#touch">contact</a>
           </li>
         </ul>
       </div>

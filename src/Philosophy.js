@@ -4,7 +4,7 @@ import "./styles/Philosophy.css";
 
 const Philosophy = () => {
   return (
-    <div className="Philosophy">
+    <div className="Philosophy" id="philosophy">
       <div className="container">
         <div className="Philosophy__col-left">
           <h1>Our Philosophy</h1>
