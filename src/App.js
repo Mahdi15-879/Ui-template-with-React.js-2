@@ -9,6 +9,7 @@ import Testimonials from "./Testimonials";
 import Action from "./Action";
 import Partners from "./Partners";
 import Events from "./Events";
+import Tale from "./Tale";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Action />
       <Partners />
       <Events />
+      <Tale />
     </div>
   );
 }
