@@ -10,6 +10,7 @@ import Action from "./Action";
 import Partners from "./Partners";
 import Events from "./Events";
 import Tale from "./Tale";
+import Touch from "./Touch";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Partners />
       <Events />
       <Tale />
+      <Touch />
     </div>
   );
 }
