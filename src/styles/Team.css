@@ -43,3 +43,15 @@
 .Team__body span {
   width: 23%;
 }
+
+@media only screen and (max-width: 992px) {
+  .Team__head,
+  .Team__body {
+    flex-direction: column;
+  }
+
+  .Team__head span,
+  .Team__body span {
+    width: 90%;
+  }
+}

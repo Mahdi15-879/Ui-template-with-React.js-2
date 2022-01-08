@@ -33,8 +33,8 @@ const Touch = () => {
             <input type="text" placeholder="NAME*" />
             <input type="email" placeholder="EMAIL*" />
             <textarea placeholder="MESSAGE*" />
+            <a href="#">send</a>
           </form>
-          <a href="#">send</a>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 .Philosophy {
   background: linear-gradient(to bottom right, #7bb0e7, #4ecac2);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   padding: 3rem 0 10rem 0;
 }
 
@@ -48,4 +48,35 @@
 
 .Philosophy__col-right img {
   width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .Philosophy {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .Philosophy__col-left,
+  .Philosophy__col-right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Philosophy {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  }
+
+  .Philosophy__col-left h1 {
+    font-size: 2rem;
+  }
+
+  .Philosophy__col-left p {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 3rem;
+  }
 }

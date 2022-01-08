@@ -1,4 +1,4 @@
-.Navbar {
+.Navbar-container {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -10,10 +10,17 @@
   width: 20%;
 }
 
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
 .Navbar-list ul {
+  padding: 0;
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .Navbar-list ul > *:not(:last-child) {
@@ -29,4 +36,34 @@
 
 .Navbar-list ul li a:hover {
   color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (max-width: 992px) {
+  .Navbar {
+    background-color: #eb4f61;
+    z-index: 1;
+  }
+
+  .Navbar-container {
+    flex-direction: column;
+  }
+
+  .Navbar-list {
+    display: grid;
+    place-content: center;
+  }
+
+  .Navbar-img {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar-img {
+    width: 60%;
+  }
+
+  .Navbar-list ul > *:not(:last-child) {
+    margin-right: 1.5rem;
+  }
 }

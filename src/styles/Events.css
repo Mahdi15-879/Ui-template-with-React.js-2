@@ -1,7 +1,7 @@
 .Events {
   background-color: #f7f7f7;
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  padding-top: 15rem;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  padding-top: 10em;
 }
 
 .Events-body {
@@ -14,7 +14,7 @@
 }
 
 .Events-body div {
-  width: 380px;
+  width: 25%;
   height: 350px;
   overflow: hidden;
   cursor: pointer;
@@ -54,4 +54,31 @@
   line-height: 0;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 992px) {
+  .Events {
+    clip-path: none;
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+
+  .Events-body {
+    display: flex;
+  }
+
+  .row {
+    flex-direction: column;
+    height: 85rem !important;
+  }
+
+  .row div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Events-body {
+    flex-direction: column;
+  }
 }

@@ -1,3 +1,9 @@
 .Testimonials {
   margin: 6rem 0;
 }
+
+@media only screen and (max-width: 768px) {
+  .Testimonials {
+    margin-bottom: 10rem;
+  }
+}

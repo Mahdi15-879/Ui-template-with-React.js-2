@@ -14,8 +14,8 @@ const Partners = () => {
       />
 
       <div className="Partners-body">
-        <div className="Partners__col-1">
-          <div>
+        <div className="Partners__row-1">
+          <div className="Partners__row-1--item-1">
             <a href="https://kriesi.at/">
               <img src={require("./img/bbpress-mini.png")} alt="Partner" />
             </a>
@@ -46,8 +46,8 @@ const Partners = () => {
           </div>
         </div>
 
-        <div className="Partners__col-2">
-          <div>
+        <div className="Partners__row-2">
+          <div className="Partners__row-2--item-1">
             <a href="https://kriesi.at/">
               <img src={require("./img/revolution-mini.png")} alt="Partner" />
             </a>

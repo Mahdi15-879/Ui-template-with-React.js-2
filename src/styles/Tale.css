@@ -18,3 +18,21 @@
   font-size: 1.3rem;
   line-height: 2;
 }
+
+@media only screen and (max-width: 992px) {
+  .Tale {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    padding: 6rem 0 7rem 0;
+  }
+
+  .Tale-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Tale {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    padding: 5rem 0 6rem 0;
+  }
+}
